@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3D9F84AF246FA721007F25DB /* StatText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D9F84AE246FA721007F25DB /* StatText.swift */; };
 		3DEC953C246C978800E50F38 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DEC953B246C978800E50F38 /* AppDelegate.swift */; };
 		3DEC953E246C978800E50F38 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DEC953D246C978800E50F38 /* SceneDelegate.swift */; };
 		3DEC9540246C978800E50F38 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DEC953F246C978800E50F38 /* ContentView.swift */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3D9F84AE246FA721007F25DB /* StatText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatText.swift; sourceTree = "<group>"; };
 		3DEC9538246C978800E50F38 /* NBA Players.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NBA Players.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DEC953B246C978800E50F38 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3DEC953D246C978800E50F38 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -61,6 +63,7 @@
 				3DEC953B246C978800E50F38 /* AppDelegate.swift */,
 				3DEC953D246C978800E50F38 /* SceneDelegate.swift */,
 				3DEC953F246C978800E50F38 /* ContentView.swift */,
+				3D9F84AE246FA721007F25DB /* StatText.swift */,
 				3DEC954F246C99E200E50F38 /* Player.swift */,
 				3DEC9541246C978C00E50F38 /* Assets.xcassets */,
 				3DEC9546246C978C00E50F38 /* LaunchScreen.storyboard */,
@@ -153,6 +156,7 @@
 				3DEC953C246C978800E50F38 /* AppDelegate.swift in Sources */,
 				3DEC953E246C978800E50F38 /* SceneDelegate.swift in Sources */,
 				3DEC9540246C978800E50F38 /* ContentView.swift in Sources */,
+				3D9F84AF246FA721007F25DB /* StatText.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
