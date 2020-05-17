@@ -1,5 +1,5 @@
 //
-//  ContentView.swift
+//  PlayerDetail.swift
 //  NBA Players
 //
 //  Created by Jan Polzer on 5/13/20.
@@ -8,7 +8,7 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct PlayerDetail: View {
     var body: some View {
         VStack {
             Image("gs")
@@ -38,6 +38,6 @@ struct ContentView: View {
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        PlayerDetail()
     }
 }
