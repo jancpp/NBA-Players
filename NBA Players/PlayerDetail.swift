@@ -26,7 +26,7 @@ struct PlayerDetail: View {
                 .padding(.bottom, -70)
                 .shadow(radius: 15)
             
-            Text(player.name).font(.system(size: 50)).fontWeight(.heavy)
+            Text(player.name).font(.system(size: 40)).fontWeight(.heavy).lineLimit(1).padding(.horizontal).minimumScaleFactor(0.5)
             
             StatText(statName: "Age",    statValue: "\(player.age)")
             StatText(statName: "Height", statValue: player.height)
@@ -38,6 +38,10 @@ struct PlayerDetail: View {
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        PlayerDetail(player: players[3])
+        Group {
+            PlayerDetail(player: players[2]).environment(\.sizeCategory, .extraExtraExtraLarge).previewDevice("iPhone SE")
+            PlayerDetail(player: players[2]).environment(\.sizeCategory, .extraSmall).previewDevice("iPhone SE")
+            PlayerDetail(player: players[2]).previewDevice("iPhone 11 Max Pro")
+        }
     }
 }
